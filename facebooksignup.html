@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css file url">
+	<style type="text/css">
+	body{
+		background-color:#cccbc3;
+	}
+	.container{
+
+			margin-top: -10px;
+			float: right;
+			height: 500px;
+			width: 400px;
+			background-color: white;
+			text-align: auto;
+			margin-right: 500px;
+			
+			box-shadow: black;
+		}
+	.container .head{
+		font-size: 25pt;
+		font-family: Arial Rounded MT Bold;
+		text-align: left;
+		margin-left: 10px;
+		margin-top: 10px;
+
+	}
+	.container .follow{
+		font-size: 14pt;
+		text-align: left;
+		margin-left: 10px;
+		margin-top: -25px;
+	}
+	.container .inp1{
+		margin-left: 10px;
+		padding: 5px 5px 5px 5px;
+		height: 20px;
+		width: 170px;
+		background-color:#e2e2e1;
+	}
+	.container .inp2{
+		margin-left: 10px;
+		padding: 5px 5px 5px 5px;
+		height: 20px;
+		width: 170px;
+		background-color:#e2e2e1;
+	}
+	.container .inp3{
+		margin-left: 10px;
+		margin-top: 10px;
+		padding: 5px 5px 5px 5px;
+		height: 20px;
+		width: 365px;
+		background-color:#e2e2e1;
+	}
+	.container .inp4{
+		margin-left: 10px;
+		margin-top: 10px;
+		padding: 5px 5px 5px 5px;
+		height: 20px;
+		width: 365px;
+		background-color:#e2e2e1;
+	}
+	.container .day{
+	margin-left: 10px;
+		margin-top: -10px;
+		
+		height: 30px;
+		width: 118px;
+		background-color:#e2e2e1;	
+	}
+	.container .months{
+		margin-left: 10px;
+		margin-top: -10px;
+		
+		height: 30px;
+		width: 118px;
+		background-color:#e2e2e1;	
+
+	}
+	.container .year{
+		margin-left: 10px;
+		margin-top: -10px;
+		
+		height: 30px;
+		width: 118px;
+		background-color:#e2e2e1;	
+	}
+	.container .dob{
+	margin-left: 10px;	
+	}
+	.container .label{
+		margin-left: 10px;
+		margin-top: -10px;
+		
+		height: 30px;
+		width: 118px;
+		background-color:#e2e2e1;
+	}
+	.container .tc{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.container .submit{
+		background-color: green;
+		margin-right: 50px;
+		height: 30px;
+		width: 200px;
+		color: white;
+		font-family: Arial Rounded MT Bold;
+
+
+	}
+	.line{
+		margin-top: -15px;
+	}
+	.logo{
+			font-family: Arial Rounded MT Bold;
+			font-size: 36pt;
+			color: blue;
+			margin-left:500px;
+			margin-top: 100px;
+		}
+		a{
+		text-decoration: none;
+	}
+	
+	</style>
+</head>
+<body>
+	<h3 class="logo">facebook</h3>
+<div class="container">
+	<h2 class="head"> Sign Up </h2>
+	<p class="follow">it's quick and easy</p>
+	<p class="line">__________________________________________________</p>
+	<form action="creatprofile" name="facebook registration page" id="fb reg page" method="post" enctype="multipart/form-data">
+		<input class="inp1" type="text" name="" placeholder=" First Name" required="required">
+		<input class="inp2" type="text" name="" placeholder=" Surname" required="required"><br/>
+		<input class="inp3" type="text/number" name="" placeholder=" Mobile number or email adress" required="required"><br/>
+		<input class="inp4" type="text/number" name="" placeholder=" New Password" required="required"><br/>
+		<p class="dob">Date of birth?</p>
+		<select class="day" name="Days of the week" id="Days">
+<option value="1">1</option><option value="2">2</option><option value="3">3</option>
+<option value="4">4</option><option value="5">5</option><option value="6">6</option>
+<option value="5">7</option><option value="8">8</option><option value="9">9</option>
+<option value="6">10</option><option value="11">11</option>
+<option value="Days">12</option><option value="13">13</option><option value="other">14</option><option value="other">15</option><option value="other">16</option><option value="other">17</option><option value="other">18</option><option value="other">19</option><option value="other">20</option><option value="other">21</option><option value="other">22</option><option value="other">23</option><option value="other">24</option><option value="other">25</option><option value="other">26</option><option value="other">27</option><option value="other">28</option><option value="other">29</option><option value="other">30</option><option value="other">31</option>
+</select>
+<select class="months" name="months" id="months">
+<option value="google">Jan</option><option value="friend">Feb</option><option value="advert">Mar</option>
+<option value="other">Apr</option><option value="other">May</option><option value="other">Jun</option>
+<option value="other">Jul</option><option value="other">Aug</option><option value="other">Sep</option>
+<option value="other">Oct</option><option value="other">Nov</option><option value="December">Dec</option>
+</select>
+<select class="year" name="years" id="months">
+<option value="2021">2021</option><option value="2020">2020</option><option value="2019">2019</option>
+</select>
+<p class="dob">Gender?</p>
+
+	<label class="label"> Male
+<input name="Gender" type="radio"  value="Male" />
+
+</label>
+
+	<label class="label"> Female
+<input name="Gender" type="radio"  value="Female" />
+
+</label>
+
+	<label class="label"> Custom
+<input name="Gender" type="radio"  value="Custom" />
+
+</label>
+
+<p class="tc"> By clicking sign up, you agree to our <a href="tc">Terms</a>, <a href="dp"> Data Policy </a> and <a href="cp"> Cooki Policy</a>. You may receive SMS notifications from usand can opt out at any time, </p>
+<input class="submit" type="submit" value="Sign Up" />
+	</form>
+</div>
+</body>
+</html>
